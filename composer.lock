@@ -4,77 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "37111c5fce7811eaa55c5e0d04687c51",
+    "content-hash": "1310c3402bce68cee7ef49f2b32e87d6",
     "packages": [
-        {
-            "name": "classicpress-research/classic-commerce",
-            "version": "v1.0.0-alpha.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ClassicPress-research/classic-commerce.git",
-                "reference": "4007971ca5d080ab2b01cc62e16949a1c69226e8"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ClassicPress-research/classic-commerce/zipball/4007971ca5d080ab2b01cc62e16949a1c69226e8",
-                "reference": "4007971ca5d080ab2b01cc62e16949a1c69226e8",
-                "shasum": ""
-            },
-            "require": {
-                "composer/installers": "~1.2"
-            },
-            "require-dev": {
-                "dealerdirect/phpcodesniffer-composer-installer": "^0.4.3",
-                "nette/utils": "~2.3.0",
-                "phpunit/phpunit": "6.*",
-                "squizlabs/php_codesniffer": "*",
-                "wimg/php-compatibility": "^8.0",
-                "woocommerce/woocommerce-git-hooks": "*",
-                "woocommerce/woocommerce-sniffs": "*",
-                "wp-coding-standards/wpcs": "^0.14"
-            },
-            "type": "classicpress-plugin",
-            "extra": {
-                "scripts-description": {
-                    "test": "Run unit tests",
-                    "phpcs": "Analyze code against the WordPress coding standards with PHP_CodeSniffer",
-                    "phpcbf": "Fix coding standards warnings/errors automatically with PHP Code Beautifier"
-                }
-            },
-            "scripts": {
-                "pre-update-cmd": [
-                    "WooCommerce\\GitHooks\\Hooks::preHooks"
-                ],
-                "pre-install-cmd": [
-                    "WooCommerce\\GitHooks\\Hooks::preHooks"
-                ],
-                "post-install-cmd": [
-                    "WooCommerce\\GitHooks\\Hooks::postHooks"
-                ],
-                "post-update-cmd": [
-                    "WooCommerce\\GitHooks\\Hooks::postHooks"
-                ],
-                "test": [
-                    "phpunit"
-                ],
-                "phpcs": [
-                    "phpcs -s -p"
-                ],
-                "phpcbf": [
-                    "phpcbf -p"
-                ]
-            },
-            "license": [
-                "GPL-3.0-or-later"
-            ],
-            "description": "A simple, powerful and independent e-commerce platform. Sell anything with ease.",
-            "homepage": "https://github.com/ClassicPress-research/classic-commerce",
-            "support": {
-                "source": "https://github.com/ClassicPress-research/classic-commerce/tree/v1.0.0-alpha.3",
-                "issues": "https://github.com/ClassicPress-research/classic-commerce/issues"
-            },
-            "time": "2020-01-20T12:23:23+00:00"
-        },
         {
             "name": "classicpress/classicpress",
             "version": "1.1.3",
