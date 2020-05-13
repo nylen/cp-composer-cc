@@ -41,7 +41,8 @@
     "oscarotero/env": "^1.2.0",
     "roots/wp-config": "1.0.0",
     "roots/wp-password-bcrypt": "1.0.0",
-    "classicpress/classicpress": "~1.0"
+    "classicpress/classicpress": "~1.0",
+    "classicpress-research/classic-commerce": "dev-fix/composer-type#7f890d7"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.5.4",
